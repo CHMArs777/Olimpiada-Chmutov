@@ -53,7 +53,7 @@ def KolichestvoBanok (bankivned):
         i +=1
         print('Расплющено банок в', i, 'неделю:', bankivned)
         bankivned += 2
-        if bankivned >= 500:
+        if bankivned > 500:
             print('банки закончились')
             break
 KolichestvoBanok(bankivned)
